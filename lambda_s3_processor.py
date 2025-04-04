@@ -3,7 +3,7 @@ import boto3
 s3 = boto3.client('s3')
 
 def lambda_handler(event, context):
-    # Enter bucket name and get the file details from the event
+    # Enter your bucket name and get the file details from the event
     bucket_name = "dehlive-sales-xxxxxxx-us-east-1"
     object_key = event['Records'][0]['s3']['object']['key']
     
@@ -21,6 +21,8 @@ def lambda_handler(event, context):
     file_content = response['Body'].read().decode('utf-8')
     
     # Apply transformation (convert text to uppercase)
+    # Please use the tranformation logic for your use case. 
+    
     transformed_content = file_content.upper()
     
     # Upload transformed file to archive
