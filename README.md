@@ -104,6 +104,12 @@ Lambda needs permission to read from and write to S3. To set up the permissions:
 
 ---
 
+## **Screenshot of Cloudwatch logs**
+
+![image](https://github.com/user-attachments/assets/9c6eb9fd-5b66-4794-9992-296fb1a3f674)
+
+--- 
+
 ## **Real-World Use Cases**
 ✅ **Automating ETL pipelines** – Pre-process files before loading into databases.  
 ✅ **Data transformation** – Convert data formats, clean text files, enrich metadata.  
