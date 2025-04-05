@@ -62,7 +62,7 @@ Lambda needs permission to read from and write to S3. To set up the permissions:
 
 ### **Step 4: Upload the Python Script**
 1. Scroll down to the **Code source** section.
-2. Upload your Python script (you'll place it in your GitHub repository under `code/`).
+2. Upload your Python script.
 3. Click **Deploy**.
 
 ---
