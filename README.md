@@ -123,5 +123,5 @@ With this simple setup, we automated S3 file handling using AWS Lambda. This is 
 
 If you found this useful, feel free to contribute or suggest improvements! 🚀
 
-#AWS #Lambda #S3 #Automation #DataEngineering
+
 
